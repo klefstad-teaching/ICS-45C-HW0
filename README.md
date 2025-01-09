@@ -266,10 +266,11 @@ This action will pull and push commits from and to "origin/main".
    
 ![Step 3](/assets/9-3.jpg)
 
-## 10 Submission
+## 10. Submit to GradeScope
+
 All submissions are done on [GradeScope](https://www.gradescope.com/).
 
 On GradeScope, go into your Account Settings, and link your GitHub account to GradeScope.
 
-Then on the course GradeScope, go to the **Homework 0`** assignment, press the Submit button, choose the GitHub option, and select your project and branch.
+Then on the course GradeScope, go to the **Homework 0** assignment, press the Submit button, choose the GitHub option, and select your project and branch.
 
