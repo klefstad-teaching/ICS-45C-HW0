@@ -243,11 +243,25 @@ ls
    
 ![Step 1](/assets/9-1.jpg)
 
-3. Press the commit button and then press 'Yes' on the alert that pops up. Then give a commit message.
+3. Press the blue `Commit` button, and click `Yes` on the alert that pops up saying:
+   
+```
+There are no staged changes to commit.
+Would you like to stage all your changes and commit them directly?
+```
+
+5. A file will pop up asking to give a commit message, type one out after the lines that start with the `#` character
+6. Once you have entered a commit message press the check mark button on the top right or close the file.
+
+> ⚠️ Note: If you do not type out a commit message, or if you put it on a line starting with the `#` character it will not work and the blue `Commit` button will remain the same.
    
 ![Step 2](/assets/9-2.jpg)
 
-5. Press Sync Changes and Press 'Ok' on the alert that pops up
+5. Press the blue `Sync Changes` button and click `Ok` on the alert that pops up saying:
+   
+```
+This action will pull and push commits from and to "origin/main".
+```
    
 ![Step 3](/assets/9-3.jpg)
 
