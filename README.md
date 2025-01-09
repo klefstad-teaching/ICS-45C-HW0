@@ -271,4 +271,7 @@ All submissions are done on [GradeScope](https://www.gradescope.com/).
 
 On GradeScope, go into your Account Settings, and link your GitHub account to GradeScope.
 
+
+All code moved from [ICS45c](https://github.com/RayKlefstad/ICS45c/tree/hw1)
+
 Then on the course GradeScope, go to the **Homework 0** assignment, press the Submit button, choose the GitHub option, and select your project and branch.
