@@ -251,9 +251,9 @@ Would you like to stage all your changes and commit them directly?
 ```
 
 5. A file will pop up asking to give a commit message, type one out after the lines that start with the `#` character
-6. Once you have entered a commit message press the check mark button on the top right or close the file.
+6. Once you have entered a commit message, press the check mark button on the top right or close the file.
 
-> ⚠️ Note: If you do not type out a commit message, or if you put it on a line starting with the `#` character it will not work and the blue `Commit` button will remain the same.
+> ⚠️ Note: If you do not type out a commit message, or if you put it on a line starting with the `#` character it will not work, and the blue `Commit` button will remain the same.
    
 ![Step 2](/assets/9-2.jpg)
 
