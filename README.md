@@ -1,17 +1,17 @@
 # ICS 45C Homework 0
 
-For this homework we will be setting up some inital accounts and programs. 
+For Homework 0, we set up the accounts and tools needed for this course.
 
 **Overview**
-1. Set up our VPN. We will need access services that require we are within UCI's network. When we are on campus we will not need to use the VPN but whenever we try to access these services off campus we will be required to use this.
-2. Activate our ICS Account. We need this accont to access the ICS 45C Hub. This is **NOT** the same as our UCI NetID.
-3. Login to the ICS 45C Hub. This is where we will be developing all our programs. It is a online editor that includes tools such as Visual Studio.
-4. Setup Git
-5. Complete a Basic C++ program. To show that we have set up our environment.
-6. Compile with g++ and run
-7. Learn to use valgrind
-8. Create a Makefile
-9. Pushing changes to Git
+1. Set up our VPN. We need access to services that require we are within UCI's network. When we are on campus, we do nto need to use the VPN, but whenever we try to access these services off campus, we will be required to use it.
+2. Activate our ICS Account. This is **NOT** the same as our UCI NetID. We need this account to access the ICS 45C Hub.
+3. Login to the ICS 45C Hub, where we develop all our programs. Hub provides an online editor with tools such as Visual Studio.
+4. Set up `git`.
+5. Complete a basic C++ program, to verify that our environment is correctly set up.
+6. Compile with `g++` and run.
+7. Learn to use `valgrind`.
+8. Create a `Makefile` to compile.
+9. Push changes to git.
 
 ## 1. Set up our VPN
 
@@ -21,14 +21,14 @@ Go to [UCI VPN](https://uci.service-now.com/sp?id=kb_article_view&sysparm_articl
 ## 2. Activate our ICS Account
 
 Create your ICS Account using this link: [ICS Account Creation Website](https://support.ics.uci.edu/auth).
-   - You will need to be on campus or use the VPN.
+   - You need to be on campus or use the VPN.
 
-## 3. Login to the ICS 45C Hub
+## 3. Log in to the ICS 45C Hub
 
-Login to the Hub using this link: [ICS 45C Hub](http://ics45c-hub.ics.uci.edu/)
-   - You will need to be on campus or use the VPN.
-   - You will need to log in with your ICS Account.
-   - When logging in use just the username not the full email (use 'example' **NOT** 'example@ics.uci.edu')
+Login to the course Hub using this link: [ICS 45C Hub](http://ics45c-hub.ics.uci.edu/)
+   - You need to be on campus or use the VPN.
+   - You need to log in with your ICS Account.
+   - When logging in, use just the username, not the full email (use `example` **NOT** `example@ics.uci.edu`)
 
 1. Sign in to the Hub
    
@@ -43,8 +43,8 @@ Login to the Hub using this link: [ICS 45C Hub](http://ics45c-hub.ics.uci.edu/)
 ### 1 GitHub Account
 
 GitHub is an online storage service for the tool `git`, an industry standard version control tool with many powerful capabilities. For this course, `git` allows you to
-- easily obtain files needed for each Homework from the public ICS45C course repository,
-- save your work in your own account on GitHub.com (in different versions/branches if you choose, so that you can try different approaches or changes without breaking what you were working on before), and
+- easily obtain files needed for each Homework from the ICS45C course repository,
+- save your work in your own account on GitHub (in different versions/branches if you choose, so that you can try different approaches or changes without breaking what you were working on before), and
 - easily upload your Homework submissions to GradeScope directly from GitHub.
 
 This class **requires** the use of a GitHub account, so first create your account at  [GitHub.com](https://github.com/). If you already have a GitHub account, you can use your existing account for this course. Your GitHub account does not need to be linked to your UCI email. 
@@ -55,7 +55,7 @@ This class **requires** the use of a GitHub account, so first create your accoun
 
 ### Configure `git` profile
 
-Once logged in to the Hub click the Terminal button, which should be the first link in the Other section, you can now type commands to `git`. 
+Once logged in to the Hub, click the `Terminal` button, which should be the first link in the **Other** section. In Terminal, you can now type commands to `git`. 
 
 #### :warning: Where am I? 
 >***When using a terminal, always be aware of your current working directory, and whether your current directory is your **local** machine (i.e., on the hard drive of your own computer) or remote, on Hub. When following these instructions, make sure you are logged into Hub!***
@@ -68,7 +68,7 @@ git config --global user.email "<YourGitHubEmailHere>"  # Example: "klefstad@uci
 ```
 ### Set up an SSH key
 
-Now set up an `ssh` key, because `GitHub` is moving away from allowing the usage of `https` links.  
+Now set up an `ssh` key, because `GitHub` is moving away from allowing `https` links.  
 
 First, generate an SSH key pair for GitHub on Hub through the following steps:
 
