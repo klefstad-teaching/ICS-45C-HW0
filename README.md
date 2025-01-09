@@ -12,6 +12,7 @@ For Homework 0, we set up the accounts and tools needed for this course.
 7. Learn to use `valgrind`.
 8. Create a `Makefile` to compile.
 9. Push changes to git.
+10. Submit to GradeScope
 
 ## 1. Set up our VPN
 
@@ -265,3 +266,9 @@ This action will pull and push commits from and to "origin/main".
    
 ![Step 3](/assets/9-3.jpg)
 
+## 10 Submission
+All submissions are done on [GradeScope](https://www.gradescope.com/).
+
+On GradeScope, go into your Account Settings, and link your GitHub account to GradeScope.
+
+Then on the course GradeScope, go to the **Homework 0** assignment, press the Submit button, choose the GitHub option, and select your project and branch.
