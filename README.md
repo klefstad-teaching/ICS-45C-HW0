@@ -240,7 +240,11 @@ ls
 
 ## 9. Pushing changes to git
 
-1. Click the third button underneath the menu button on the top left named Source Control
+**IMPORTANT**
+Move your `main.cpp` file into the `src` folder before you submit!
+
+1. Move your `main.cpp` file into the `src` folder
+2. Click the third button underneath the menu button on the top left named Source Control
    
 ![Step 1](/assets/9-1.jpg)
 
