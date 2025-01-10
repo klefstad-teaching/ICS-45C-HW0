@@ -241,10 +241,16 @@ ls
 ## 9. Pushing changes to git
 
 **IMPORTANT**
-Move your `main.cpp` file into the `src` folder before you submit!
+For all the GTests to work and for the autograder to work as intented you must add a `src` directory and move the `main.cpp` file into it
 
-1. Move your `main.cpp` file into the `src` folder
-2. Click the third button underneath the menu button on the top left named Source Control
+```bash
+└── src
+    ├── main.cpp
+```
+
+1. Create a `src` folder in your root directory
+2. Move your `main.cpp` file into the newly created `src` folder 
+3. Click the third button underneath the menu button on the top left named Source Control
    
 ![Step 1](/assets/9-1.jpg)
 
