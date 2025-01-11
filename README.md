@@ -249,32 +249,19 @@ For all the GTests to work and for the autograder to work as intented you must a
 ```
 
 1. Create a `src` folder in your root directory
-2. Move your `main.cpp` file into the newly created `src` folder 
-3. Click the third button underneath the menu button on the top left named Source Control
-   
-![Step 1](/assets/9-1.jpg)
-
-3. Press the blue `Commit` button, and click `Yes` on the alert that pops up saying:
-   
-```
-There are no staged changes to commit.
-Would you like to stage all your changes and commit them directly?
-```
-
-5. A file will pop up asking to give a commit message, type one out after the lines that start with the `#` character
-6. Once you have entered a commit message, press the check mark button on the top right or close the file.
-
-> ⚠️ Note: If you do not type out a commit message, or if you put it on a line starting with the `#` character it will not work, and the blue `Commit` button will remain the same.
-   
-![Step 2](/assets/9-2.jpg)
-
-5. Press the blue `Sync Changes` button and click `Ok` on the alert that pops up saying:
-   
-```
-This action will pull and push commits from and to "origin/main".
-```
-   
-![Step 3](/assets/9-3.jpg)
+2. Move your `main.cpp` file into the newly created `src` folder
+3. Use this command to tell git to add all the files:
+   ```bash
+   git add .
+   ```
+4. Use this command to commit all the changes, include any message you would like:
+   ```bash
+   git commit -a -m "Commit Message Here"
+   ```
+5. Use this command push all the changes to your repo
+   ```bash
+   git push --set-upstream origin main
+   ```
 
 ## 10. Submit to GradeScope
 
