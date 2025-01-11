@@ -250,7 +250,7 @@ For all the GTests to work and for the autograder to work as intented you must a
 
 1. Create a `src` folder in your root directory
 2. Move your `main.cpp` file into the newly created `src` folder
-3. Use this command to tell git to add all the files:
+3. First we must stage all the files (. means add all files)
    ```bash
    git add .
    ```
@@ -262,6 +262,7 @@ For all the GTests to work and for the autograder to work as intented you must a
    ```bash
    git push --set-upstream origin main
    ```
+> Note: After using `git push --set-upstream origin main` you can just use `git push` from then on for that specific repo.
 
 ## 10. Submit to GradeScope
 
